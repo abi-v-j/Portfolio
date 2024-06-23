@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+
+
+
+
 html {
     --section-background-color: linear-gradient(
       to bottom left,
@@ -745,3 +750,13 @@ html {
   .sdow{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   }
+
+
+
+.playwrite-pl {
+  font-family: "Playwrite PL", cursive;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  font-size: 20px;
+}
