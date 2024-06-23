@@ -7,11 +7,11 @@ import Resume from "./components/Resume/Resume";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <HomePage />,
       },
       {
