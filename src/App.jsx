@@ -5,6 +5,7 @@ import ScrollTop from "./components/ScrollTop";
 import { Outlet } from "react-router-dom";
 import './App.css'
 import './style.css'
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -25,14 +26,8 @@ const App = () => {
         <NavBar />
         <ScrollTop />
         <Outlet/>
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/" />} />
-        </Routes>
-        <Footer /> */}
+     
+        <Footer /> 
       </div>
     </>
   );
