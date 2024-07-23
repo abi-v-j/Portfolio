@@ -1,7 +1,8 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
-import developer from "../../assets/developer.jpg";
+import QRCode from '../../assets/QRCode.png'
+import FAQ from '../../assets/FAQ.png'
 
 const Projects = () => {
   return (
@@ -16,11 +17,29 @@ const Projects = () => {
       <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
           <ProjectCard
-            imgPath={developer}
+            imgPath={QRCode}
             isBlog={false}
-            title="Demo"
-            description=""
-            demoLink=""
+            title="QR Code Generator"
+            description="it's a simple QR code generator."
+            demoLink="https://qrcode-psi-nine.vercel.app/"
+          />
+        </Col>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={FAQ}
+            isBlog={false}
+            title="Frequently Asked Questions"
+            description="it is a simple FAQ ."
+            demoLink="https://frequently-asked-questions-alpha.vercel.app/"
+          />
+        </Col>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={QRCode}
+            isBlog={false}
+            title="QR Code Generator"
+            description="it's a simple QR code generator."
+            demoLink="https://qrcode-psi-nine.vercel.app/"
           />
         </Col>
 
